@@ -119,7 +119,7 @@ sayHi.[[Scope]] = window
 ```js run no-beautify
 var phrase = 'Привет';
 
-function say(name) {
+function sayHi(name) {
   alert(phrase + ', ' + name);
 }
 
